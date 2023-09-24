@@ -1,0 +1,130 @@
+
+
+.form{
+  background-image:  url(/static/image/df.jpg);
+  background-size: cover;
+  height: 700px;
+  margin-top: 70px;
+  opacity: 0.7;
+  padding: 70px;
+}
+h1{
+  color: #fff;
+}
+.nav
+{
+  background-color: hwb(0 27% 67% / 0.852);
+  color: #fff;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  padding:0 ;
+  width: 100%;
+  
+}
+.nav ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.nav .title{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.nav a{
+color: inherit;
+text-decoration: none;
+height: 100%;
+display: flex;
+align-items: center;
+padding: .25rem;
+}
+.nav li{
+  height: 100%;
+  font-size: 20px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  
+}
+ 
+
+.nav .title{
+  padding-left: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.form .titles{
+  text-align: center;
+}
+form{
+  height: 300px;
+  display: block;
+}
+.scroller {
+  height: 200px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  background-color: rgba(157, 153, 153, 0.604);
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
+.gallery .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  gap: 40px;
+  text-align: center;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .box p{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  gap: 40px;
+  color: darkslategrey;
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+.gallery{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  background-color: #a1a7d4;
+  padding: 30px;
+  position: relative;
+  text-align: center;}
+  .footer p{
+    color: darkslategray;
+  }
+  .footer1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 40px;
+    line-height: 2.0;
+    
+  }
+  .connect li {
+  list-style: none;
+  display: inline;
+  padding: 13px;
+  margin-top: 30px;
+  }
+  .connect{
+    justify-content: center;
+  }
